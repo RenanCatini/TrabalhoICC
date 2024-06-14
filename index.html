@@ -21,30 +21,41 @@
     <p><b>Segue a descrição e explicação dos seguintes comandos do git:</b></p>
     <ol>
         <li><b>init:</b><br>Este comando é usado para criar um novo repositório Git em um diretório específico.<br> 
-        Ele inicializa um diretório como um repositório Git, permitindo que você comece a acompanhar<br>
-        as alterações de arquivos e faça commits.</li><br>
+        Ele inicializa um diretório como um repositório Git, permitindo que você comece a acompanhar as alterações<br>
+        de arquivos e faça commits. Foi utilizado no trabalho digitando <b>git init</b> no prompt de comando dentro de uma<br>
+        chamada TrabalhoICC.</li><br>
         <li><b>clone:</b><br>O comando clone é usado para criar uma cópia de um repositório Git existente em um novo diretório.<br>
-            Ele copia todo o histórico de commits, ramos e arquivos do repositório original para o novo diretório.</li><br>
+            Ele copia todo o histórico de commits, ramos e arquivos do repositório original para o novo diretório. Foi utilizado<br>
+             no trabalho digitando <b>git clone https://github.com/RenanCatini/TrabalhoICC.git</b> no prompt de comando.</li><br>
         <li><b>branch:</b><br>Este comando é usado para criar, listar ou excluir ramos no repositório Git.<br>
             Um ramo no Git é simplesmente uma referência móvel para um commit.</li><br>
         <li><b>checkout:</b><br>O comando checkout é usado para alternar entre ramos ou restaurar arquivos de um commit específico.<br>
-            Ele pode ser usado para criar um novo ramo ou alternar entre ramos existentes.</li><br>
+            Ele pode ser usado para criar um novo ramo ou alternar entre ramos existentes. Foi utilizado no trabalho digitando<br>
+            <b>git checkout -b temp</b> no prompt de comando para criar e entrar em um ramo temporário. Também foi utilizado quando<br>
+            foi necessário mudar de ramo digitando <b>git checkout "nome do ramo"</b>.<br>
+            </li><br>
         <li><b>status:</b><br>Este comando mostra o estado atual do repositório Git. Ele exibe informações sobre arquivos não rastreados,<br>
             arquivos modificados e o estado dos ramos.</li><br>
         <li><b>diff:</b><br>O comando diff é usado para exibir as diferenças entre dois pontos de dados Git. Isso pode ser entre commits,<br>
             entre o diretório de trabalho e o índice, ou entre o índice e o commit atual.</li><br>
         <li><b>add:</b><br>Este comando é usado para adicionar alterações feitas em arquivos ao índice do Git.<br>
-            Isso prepara as alterações para serem incluídas no próximo commit.</li><br>
+            Isso prepara as alterações para serem incluídas no próximo commit. Foi utizado no trabalho digitando <b>git add .</b><br>
+            no prompt de comando quando foi necessário salvar as alterações para realizar um commit posteriormente.</li><br>
         <li><b>commit:</b><br>O comando commit é usado para salvar as alterações feitas no repositório Git.<br>
-            Ele cria um novo commit contendo as alterações preparadas com o comando add.</li><br>
+            Ele cria um novo commit contendo as alterações preparadas com o comando add. Foi utilizado no trabalho<br>
+            digitando <b>git commit -m. "Mensagem de commit"</b></li><br>
         <li><b>push:</b><br>Este comando é usado para enviar commits locais para um repositório remoto.<br>
-            Ele transfere as alterações locais para o repositório remoto especificado.</li><br>
+            Ele transfere as alterações locais para o repositório remoto especificado. Foi utilizado no <br>
+            trabalho digitando <b>git push</b> no prompt de comando para atualizar o repositório no github.</li><br>
         <li><b>pull:</b><br> O comando pull é usado para recuperar as alterações de um repositório remoto e mesclá-las com o repositório local.<br>
-            Ele é uma combinação dos comandos fetch e merge.</li><br>
+            Ele é uma combinação dos comandos fetch e merge. Foi utilizado no trabalho digitando  <b>git pull</b><br>
+            para atualizar um repositório local de acordo com o repositório no github.</li><br>           
         <li><b>revert:</b><br>Este comando é usado para desfazer um commit específico,<br>
             criando um novo commit que desfaz as alterações introduzidas pelo commit original.</li><br>
         <li><b>merge:</b><br>O comando merge é usado para mesclar alterações de um ramo para outro.<br>
-            Ele combina o histórico de dois ramos diferentes.</li><br>
+            Ele combina o histórico de dois ramos diferentes. Foi utilizado no trabalho digitando<br>
+            <b>git merge "temp"</b> para mesclar as modificações feitas no ramo temporário<br>
+            no ramo principal.</li><br>
         <li><b>stash:</b><br>Este comando é usado para temporariamente armazenar alterações locais que ainda não estão prontas para serem commitadas.<br>
             Isso permite que você trabalhe em outra tarefa sem ter que fazer commit das alterações atuais.</li><br>
         <li><b>rm:</b><br>O comando rm é usado para remover arquivos do índice e do diretório de trabalho.<br>
